@@ -14,6 +14,7 @@ public class CalculatorApp {
         System.out.println("Общая сумма операций:      " + mem);
 
         vto= calculator2.sub(a,b);
+        System.out.println("Общая сумма операций");
         System.out.println("Разность чисел а и b:      " + calculator2.sub(a,b));
         mem=calculator2.addToMemory(vto, mem);
         System.out.println("Общая сумма операций:      " + mem);
